@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "build": "rm -rf public; mkdir public; cp index.html _headers public; node node_modules/getGeoMAC -v -d public/rcwildfires "
+    "build": "rm -rf public; mkdir public; cp index.html _headers public; node node_modules/getGeoMAC -v -d public/rcwildfires; ./update_date.sh"
   },
   "devDependencies": {
     "getGeoMAC": "git+https://github.com/jimmyangel/getGeoMAC.git"
