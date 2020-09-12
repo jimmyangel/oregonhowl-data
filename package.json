@@ -1,6 +1,6 @@
 {
   "name": "oregonhowl-data",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Semi-dynamic data for Oregon HOWL",
   "repository": {
     "type": "git",
@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "build": "rm -rf public; mkdir public; cp index.html _headers public; node node_modules/getGeoMAC -v -d public/rcwildfires; ./update_date.sh"
+    "build": "rm -rf public; mkdir public; cp index.html _headers public; node node_modules/getNIFC -d public/rcwildfires; ./update_date.sh"
   },
   "devDependencies": {
-    "getGeoMAC": "git+https://github.com/jimmyangel/getGeoMAC.git"
+    "getNIFC": "git+https://github.com/jimmyangel/getNIFC.git"
   }
 }
