@@ -3,4 +3,4 @@ public
 .DS_Store
 .tmp
 rcwildfires-data
-package-log.json
+package-lock.json
